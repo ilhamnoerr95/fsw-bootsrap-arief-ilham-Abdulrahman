@@ -1,3 +1,7 @@
+*{box-sizing: border-box;}
+a{
+    text-decoration: none;
+}
 body{
     font-family: Arial;
 }
@@ -27,6 +31,10 @@ body{
 .dropdown-item{
     font-weight: bold;
 }
+
+/* carousel */
+
+
 
 /* form */
 .d-flex{
@@ -85,10 +93,145 @@ font-weight: bold;}
 
 .seperate {
     border-top: 1px solid #eee;
-    background-image: url(vector-blue-wave-transparent/7084.eps);
-    background-size: cover;
+
 }
 
 .grid-image{
     opacity: 0.8;
+}
+
+/* destinasi fitur */
+
+
+.column{
+    max-width: 25%;
+    float: 25%;
+    padding: 10px;
+}
+
+.column img{
+    width: 100%;
+    margin-top:10px;
+}
+
+.subscribes{
+    
+    font-size: x-large;
+}
+/* end of destinasi fitur */
+
+/* diskon */
+
+.disc{
+    position:relative;
+}
+
+.discon-bg{
+ 
+}
+
+.bali-disc {
+    width:400px;
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+}
+.bali-disc h1{
+    font-weight: bolder;
+    color:white;
+}
+.bali-disc h3,p,h4{
+    color:white;
+    font-weight: 700;
+}
+
+.bali-disc span{
+    color:#F5B843;
+    font-weight: bold;
+}
+.disc img{
+    width: 100%;
+    height: 550px;
+  object-fit: cover;
+  margin: 50px 0;
+
+}
+
+
+.btnn { display:inline-block;
+    opacity: 0.8;
+    border-radius: 12px;
+    text-align: center;
+    padding: 8px 12px;
+    background-color: #F5B843;
+    color:white;
+
+}
+
+.buy-now{
+   
+    margin-left:20px;
+}
+
+.btnn:hover{
+    opacity: 1.0;
+    color:white;
+}
+/* footer */
+    footer{
+            background-color: #212529;
+            color:white;
+    }
+
+.foot{
+        margin-top:50px;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: auto auto; /*Make the grid smaller than the container*/
+        padding: 10px;
+    }
+ 
+
+    .Contact-us {
+            margin-top:30px;
+            color:white;
+
+    }
+    .informasi{
+        margin-bottom:15px;
+    }
+
+    .informasi img{
+        margin-right: 10px;
+    }
+
+    .Links{
+        margin-top:30px;
+   
+    }
+
+    .Links h3 {
+        text-align: center;
+    }
+
+    .Links li {
+        list-style-type:square;
+        margin: 20px 0;
+    }
+
+.Links li a {
+    text-decoration: none;
+    color:rgba(255, 255, 255,0.7);
+
+  
+}
+
+.Links li a:hover {
+    color:rgba(255, 255, 255,1.0)
+}
+
+.copyright{
+        text-align:center;
+        border-top:1px solid rgba(238, 238, 238, 0.2);
+        width: 100%;
 }
